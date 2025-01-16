@@ -23,6 +23,10 @@ The `openai_utils.py` file provides utility functions to:
 - Analyze and categorize webpage links based on user-defined prompts.
 
 
+## 🧩 Stream Module
+The `stream.py` file implements streaming functionality to:
+- Generate Markdown content in real time.
+- Dynamically display updates during brochure generation.
 
 
 ## ⚙️ Installation
