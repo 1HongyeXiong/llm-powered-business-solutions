@@ -1,5 +1,5 @@
 from IPython.display import Markdown, display, update_display
-from openai_utils import get_all_details
+from openai_utils import get_all_details, openai
 from prompts import system_prompt
 
 def stream_brochure(company_name, url):
