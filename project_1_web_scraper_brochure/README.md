@@ -5,7 +5,13 @@ This project aims to scrape website content, analyze links, and generate a profe
 
 ## 🗂️ File Structure
 Planned files:
-project_1_web_scraper_brochure/ ├── main.py # Entry point for running the project ├── website.py # Handles web scraping and link extraction ├── prompts.py # Contains OpenAI prompts ├── openai_utils.py # OpenAI API interaction ├── stream.py # Streams real-time Markdown content ├── requirements.txt # Project dependencies └── README.md # Project documentation
+project_1_web_scraper_brochure/ ├── main.py # Entry point for running the project ├── website.py # Handles web scraping and link extraction ├── requirements.txt # Project dependencies └── README.md # Project documentation
+
+## 🧩 Website Module
+The `website.py` file defines a `Website` class that:
+- Scrapes webpage content, titles, and links using BeautifulSoup.
+- Removes unnecessary elements like scripts and images.
+
 
 
 ## ⚙️ Installation
