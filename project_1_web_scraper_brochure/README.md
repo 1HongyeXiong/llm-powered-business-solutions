@@ -5,7 +5,7 @@ This project aims to scrape website content, analyze links, and generate a profe
 
 ## 🗂️ File Structure
 Planned files:
-project_1_web_scraper_brochure/ ├── main.py # Entry point for running the project ├── website.py # Handles web scraping and link extraction ├── requirements.txt # Project dependencies └── README.md # Project documentation
+project_1_web_scraper_brochure/ ├── main.py # Entry point for running the project ├── website.py # Handles web scraping and link extraction ├── prompts.py # Contains OpenAI prompts ├── requirements.txt # Project dependencies └── README.md # Project documentation
 
 ## 🧩 Website Module
 The `website.py` file defines a `Website` class that:
@@ -15,6 +15,7 @@ The `website.py` file defines a `Website` class that:
 ## 🧩 Prompts Module
 The `prompts.py` file contains predefined templates for OpenAI's API to:
 - Classify webpage links (e.g., "About Us", "Careers").
+- Generate company brochures in Markdown format.
 
 ## 🧩 OpenAI Utilities Module
 The `openai_utils.py` file provides utility functions to:
