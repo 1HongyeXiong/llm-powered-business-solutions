@@ -12,6 +12,10 @@ The `website.py` file defines a `Website` class that:
 - Scrapes webpage content, titles, and links using BeautifulSoup.
 - Removes unnecessary elements like scripts and images.
 
+## 🧩 Prompts Module
+The `prompts.py` file contains predefined templates for OpenAI's API to:
+- Classify webpage links (e.g., "About Us", "Careers").
+
 
 
 ## ⚙️ Installation
