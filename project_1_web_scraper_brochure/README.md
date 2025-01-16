@@ -29,9 +29,15 @@ The `stream.py` file implements streaming functionality to:
 - Dynamically display updates during brochure generation.
 
 
-## ⚙️ Installation
-Coming soon...
-
 ## 📋 Example Output
-Coming soon...
+# HuggingFace
+
+## About Us
+HuggingFace is a leader in natural language processing, providing open-source tools...
+
+## Careers
+Join our innovative team! We are hiring talented engineers...
+
+## Contact
+Visit us at [huggingface.co](https://huggingface.co).
 
