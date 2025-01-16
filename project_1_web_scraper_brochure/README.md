@@ -16,6 +16,12 @@ The `website.py` file defines a `Website` class that:
 The `prompts.py` file contains predefined templates for OpenAI's API to:
 - Classify webpage links (e.g., "About Us", "Careers").
 
+## 🧩 OpenAI Utilities Module
+The `openai_utils.py` file provides utility functions to:
+- Interact with OpenAI's GPT model for content generation.
+- Analyze and categorize webpage links based on user-defined prompts.
+
+
 
 
 ## ⚙️ Installation
